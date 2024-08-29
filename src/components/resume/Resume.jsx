@@ -35,7 +35,6 @@ export default function Resume() {
             and access/security.
           </li>
         </ul>
-        <h3 className="mt-5"></h3>
         <h3>
           <strong>
             Website Admin - Toko Aksesoris Mobil OTOPART.ID Auto Workshop August
