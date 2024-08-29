@@ -1,0 +1,79 @@
+@import "../../global.scss";
+
+.resume {
+  background-color: #fdf2e9;
+  display: flex;
+  // flex-direction: column;
+  // align-items: center;
+
+  @include mobile{
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .left {
+    flex: 0.5;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 50px;
+
+
+    @include mobile{
+      align-items: flex-start;
+    }
+    p{
+      margin-bottom: 20px;
+    }
+    h1{
+      padding-bottom: 30px;
+    }
+    h3{
+      padding-bottom:10px;
+    }
+    .experience1{
+      padding-bottom: 48px;
+    }
+    
+  }
+  .right {
+    flex: 0.5;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 50px;
+
+  }
+  h1{
+    align-self:center;
+    padding-top: 20px;
+    padding-bottom: 30px;
+  }
+  .educate1{
+    // padding-top:38px;
+    padding-bottom:10px;
+  }
+  .educate2{
+    padding-bottom:10px;
+    flex: 0.5;
+  }
+  .educate3{
+    padding-bottom:10px;
+    padding-top:8px;
+    flex: 0.5;
+  }
+  .buletin{
+    li{
+      a{
+        text-decoration: none;
+        color:inherit;
+        &:hover{
+          color:#007bff;
+        }
+      }
+    }
+  }
+}
