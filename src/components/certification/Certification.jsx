@@ -168,6 +168,15 @@ export default function Certification() {
         "assets/certification_img_2/Pengenalan ke Logika Pemrograman.png",
       link: "https://www.dicoding.com/certificates/MEPJKWOR6X3V",
     },
+    {
+      id: "19",
+      icon: "./assets/certification_img/certificateIcon.png",
+      title: "Pengenalan ke Logika Pemrograman",
+      img:
+        process.env.PUBLIC_URL +
+        "assets/certification_img_2/LSP_SQA_1_Blured.jpg",
+      link: "",
+    },
   ];
 
   const handleClick = (way) => {
